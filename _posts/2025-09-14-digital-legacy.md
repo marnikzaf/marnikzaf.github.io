@@ -1,7 +1,7 @@
 layout: post
 title: "My First Project"
 date: 2025-09-14
-projects: true      # this makes it show up on your Projects page
+category: projects      # this makes it show up on your Projects page
 star: true          # optional, adds the "star" class
 externalLink: ""    # optional, link to an external site
 hidden: false       # optional, only if you want to hide it
