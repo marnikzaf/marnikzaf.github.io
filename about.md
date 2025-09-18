@@ -4,42 +4,20 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I am a Data— and Responsible AI— driven specialist with a background in digital media, communications, and culture. Most importantly though, I consider myself a lifelong learner. Whether inside or outside the classroom, I am always diving deep into the things that catch my attention or spark my passion, a path that has already led me through many places and experiences, for instance... the Netherlands, where I am currently based.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>After graduating with a BA in Communication, Media and Culture from the Panteion University of Social and Political Sciences in Athens, Greece and a minor in European and Global Affairs from Deree – The American College of Greece, I have worked—among other roles—as a Public Affairs Intern at the US Embassy in Athens and as a Digital Media Strategist and Client Service Manager for various projects and businesses such as Madame Ginger and Little Islands Festival. From high-profile cultural and diplomatic events to drafting B2B proposals and managing social media audiences of 200,000+, my goal has always been to communicate effectively, tailor strategies to each project’s and client’s needs, and be a reliable partner and an efficent problem-solver for every team and company I have worked with.</p> 
 
-<h2>Skills</h2>
+<p>In August 2024, after four years of exciting projects and a fulfilling career in digital media, communications, and public affairs, I moved to Amsterdam to pursue my MA in Cultural Data and AI at the University of Amsterdam. This has been the most challenging and rewarding journey of my career so far, allowing me to expand my skill set with hands-on expertise in data analysis and AI: learning to code, working with complex and “messy” data, and building automation pipelines. Equally important, I’ve developed a critical understanding of the ethical complexities surrounding data and AI — from privacy and surveillance to biases in recommendation systems that shape culture, visibility, and user habits.</p>
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Tests)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+<p>As a Student Researcher in Data Analysis and AI at the RKD – Nederlands Instituut voor Kunstgeschiedenis (Netherlands Institute for Art History), and through my MA thesis “semARTagger: A Human–AI Collaborative Tool for Semantic Metadata Enrichment in Art Historical Archives”, I have had the opportunity to combine technical skills with domain-informed, critical perspectives. My research has explored — though not been limited to — the cultural industries, the implementation of AI and LLMs in GLAM institutions and Digital Art History, the role of automation in supporting—rather than replacing—human expertise, and how algorithms influence what is seen and valued.</p>
+
+<p>Since completing my studies in September 2025, I continue to explore the many applications of data and AI. My goal is to apply data analysis and state-of-the-art AI solutions to real-world challenges, generating product and business value while maintaining an ethical, human-centered approach. I am particularly eager to contribute to digital transformation projects that connect AI, analytics, and strategy — especially in the cultural and digital media sectors.</p>
+
+<p>Outside of work and study, I am currently learning Dutch (maar ik ben nog een beginner), sharpening my Python and SQL skills, and working on side projects. When I am offline, I love traveling, spending time in the nature and doing outdoor sports, going to gigs, reading, and cooking my favorite Greek recipes (which I miss dearly). And yes, I’ll happily binge-watch The Office any time.</p>
 
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://marnikzaf.github.io/legacy/">Exploring the Digital Legacy of Analog-Era Artists: A Network Analysis of Manos Hadjidakis’s Position on Spotify</a></li>
 </ul>
