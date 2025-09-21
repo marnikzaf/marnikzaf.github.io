@@ -30,11 +30,15 @@ The second layer was the *semARTagger* interface, built with Streamlit. This bro
 
 Together, the pipeline and the interface created a complete workflow: from raw artwork titles to enriched, bilingual metadata that is consistent with controlled vocabularies and ready to be integrated into research or cataloging environments.  
 
+---
+
 ### Evaluation  
 
 The system was evaluated through a user study with curators and metadata specialists at the RKD. Participants tested *semARTagger* in real annotation tasks and provided feedback on usability, accuracy, and interpretability.  
 
 The study revealed that users valued the time saved by automated suggestions, while also emphasizing the importance of being able to control, edit, and refine the results. Their insights shaped interface refinements, highlighting the role of human expertise in validating AI-driven tagging.  
+
+---
 
 ### Key Takeaways
 
@@ -48,7 +52,9 @@ The study revealed that users valued the time saved by automated suggestions, wh
 
 - **Positive Perception of AI:** Experts appreciated the tool as a supportive assistant rather than a replacement, noting improved trust when they could see, edit, and correct the AI’s output.  
 
-- **Scalable Solution:** The separation of pipeline and interface ensures the system can be retrained and extended for other collections and low-resource, multilingual datasets.  
+- **Scalable Solution:** The separation of pipeline and interface ensures the system can be retrained and extended for other collections and low-resource, multilingual datasets.
+  
+---
 
 This project was created by Maria Elpiniki Zafeiraki as part of an *Embedded Research Project* at the RKD – Nederlands Instituut voor Kunstgeschiedenis (Netherlands Institute for Art History) and the *MA Thesis* course, supervised by Dr. Houda Lamqaddam, for the Master's in Cultural Data and AI at the University of Amsterdam.  
 It was also showcased as a poster during the Posters Presentation at *Celebrating 10 Years of Digital Humanities at KU Leuven*.
