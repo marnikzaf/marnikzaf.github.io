@@ -16,36 +16,25 @@ description: "semARTagger: A Human–AI Collaborative Tool for Semantic Metadata
 
 ## semARTagger: A Human–AI Collaborative Tool for Semantic Metadata Enrichment in Art Historical Archives
 
-![Co-occurrence Network of Manos Hadjidakis](/assets/images/network.png "Artist Network Graph showing Hadjidakis's connections with other Greek musicians") 
-
 This thesis introduces *semARTagger*, a multilingual, human-in-the-loop annotation pipeline and browser-based interface developed to enhance semantic metadata enrichment in digitized art historical collections, relying exclusively on textual information. The project focuses on the Exhibitions of Living Masters, a series of 19th-century Dutch art exhibition catalogs, exploring how artworks can be meaningfully and effectively annotated when visual data is not available. At the core of the pipeline lies a combination of multilingual embeddings (LaBSE), multi-label classification techniques, Named Entity Recognition (NER), and hierarchical concept expansion using the Art & Architecture Thesaurus (AAT). This integration allows the system to assign both English and Dutch tags to each artwork title, creating a semantic framework for historical records that are often minimally described. The project also includes a custom-built interface developed in Streamlit—a lightweight Python-based solution for interactive applications—which enables art historians, curators, and researchers to upload their data, view the pipeline’s predictions, edit tags, and export their annotated datasets. By incorporating human expertise in the workflow, the tool supports meaningful human–AI collaboration in annotation and metadata curation tasks. The system is evaluated through qualitative expert feedback and usage testing, highlighting both its strengths and the limitations and underscoring the broader capabilities but also the domain experts’ perception of AI-based methods in digital art history (DAH) metadata practices. Ultimately, semARTagger contributes an adaptive solution for semantic metadata enrichment in low-resource, multilingual cultural heritage contexts and reinforces the discourse around designing accessible, interoperable and collaborative frameworks that align with domain values and support sustainable knowledge infrastructure in the digital humanities.
+
+semartagger.jpg 
 
 ### Methodology
 
 The system was built in two main layers: a tagging pipeline and a user interface.  
 
-For the pipeline, the foundation was a training dataset provided by the RKD, containing over 99,000 artwork–tag pairs in Dutch and English.  
-This dataset was cleaned, consolidated, and transformed into a format suitable for machine learning.  
-Artwork titles were encoded using LaBSE multilingual embeddings, which capture semantic meaning across more than 100 languages.  
-On top of these embeddings, a multi-label classifier was trained to predict relevant tags for each artwork.  
-To capture entities like places and names, Named Entity Recognition (NER) was added, while the predictions were enriched and standardized using the AAT.  
-The use of this controlled vocabulary ensured that tags were not only relevant but also interoperable with other cultural heritage databases.  
+For the pipeline, the foundation was a training dataset provided by the RKD, containing over 99,000 artwork–tag pairs in Dutch and English. This dataset was cleaned, consolidated, and transformed into a format suitable for machine learning. Artwork titles were encoded using LaBSE multilingual embeddings, which capture semantic meaning across more than 100 languages. On top of these embeddings, a multi-label classifier was trained to predict relevant tags for each artwork. To capture entities like places and names, Named Entity Recognition (NER) was added, while the predictions were enriched and standardized using the AAT. The use of this controlled vocabulary ensured that tags were not only relevant but also interoperable with other cultural heritage databases.  
 
-The second layer was the *semARTagger* interface, built with Streamlit.  
-This browser-based tool connects directly to the pipeline and was designed for curators and researchers to interact with the system.  
-Users can upload catalog data, view automatically generated tags, compare them with AAT terms, make corrections, and export the enriched dataset.  
-The interface was designed to be lightweight, intuitive, and transparent, so that experts remain in control of the annotation process while benefiting from the efficiency of automation.  
+The second layer was the *semARTagger* interface, built with Streamlit. This browser-based tool connects directly to the pipeline and was designed for curators and researchers to interact with the system. Users can upload catalog data, view automatically generated tags, compare them with AAT terms, make corrections, and export the enriched dataset. The interface was designed to be lightweight, intuitive, and transparent, so that experts remain in control of the annotation process while benefiting from the efficiency of automation.  
 
-Together, the pipeline and the interface created a complete workflow:  
-from raw artwork titles to enriched, bilingual metadata that is consistent with controlled vocabularies and ready to be integrated into research or cataloging environments.  
+Together, the pipeline and the interface created a complete workflow: from raw artwork titles to enriched, bilingual metadata that is consistent with controlled vocabularies and ready to be integrated into research or cataloging environments.  
 
 ### Evaluation  
 
-The system was evaluated through a user study with curators and metadata specialists at the RKD.  
-Participants tested *semARTagger* in real annotation tasks and provided feedback on usability, accuracy, and interpretability.  
+The system was evaluated through a user study with curators and metadata specialists at the RKD. Participants tested *semARTagger* in real annotation tasks and provided feedback on usability, accuracy, and interpretability.  
 
-The study revealed that users valued the time saved by automated suggestions, while also emphasizing the importance of being able to control, edit, and refine the results.  
-Their insights shaped interface refinements, highlighting the role of human expertise in validating AI-driven tagging.  
+The study revealed that users valued the time saved by automated suggestions, while also emphasizing the importance of being able to control, edit, and refine the results. Their insights shaped interface refinements, highlighting the role of human expertise in validating AI-driven tagging.  
 
 
 ### Key Takeaways
