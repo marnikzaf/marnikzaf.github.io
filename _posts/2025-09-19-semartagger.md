@@ -16,7 +16,7 @@ description: "semARTagger: A Human–AI Collaborative Tool for Semantic Metadata
 
 ## semARTagger: A Human–AI Collaborative Tool for Semantic Metadata Enrichment in Art Historical Archives
 
-![*semARTagger* Interface](_/posts/semartagger.jpg "The semARTagger interface")
+![*semARTagger* Interface](assets/images/semartagger.jpg "The semARTagger interface")
 
 This thesis introduces *semARTagger*, a multilingual, human-in-the-loop annotation pipeline and browser-based interface developed to enhance semantic metadata enrichment in digitized art historical collections, relying exclusively on textual information. The project focuses on the Exhibitions of Living Masters, a series of 19th-century Dutch art exhibition catalogs, exploring how artworks can be meaningfully and effectively annotated when visual data is not available. At the core of the pipeline lies a combination of multilingual embeddings (LaBSE), multi-label classification techniques, Named Entity Recognition (NER), and hierarchical concept expansion using the Art & Architecture Thesaurus (AAT). This integration allows the system to assign both English and Dutch tags to each artwork title, creating a semantic framework for historical records that are often minimally described. The project also includes a custom-built interface developed in Streamlit—a lightweight Python-based solution for interactive applications—which enables art historians, curators, and researchers to upload their data, view the pipeline’s predictions, edit tags, and export their annotated datasets. By incorporating human expertise in the workflow, the tool supports meaningful human–AI collaboration in annotation and metadata curation tasks. 
 
