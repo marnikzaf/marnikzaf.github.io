@@ -18,7 +18,7 @@ description: "semARTagger: A Human–AI Collaborative Tool for Semantic Metadata
 
 This thesis introduces *semARTagger*, a multilingual, human-in-the-loop annotation pipeline and browser-based interface developed to enhance semantic metadata enrichment in digitized art historical collections, relying exclusively on textual information. The project focuses on the Exhibitions of Living Masters, a series of 19th-century Dutch art exhibition catalogs, exploring how artworks can be meaningfully and effectively annotated when visual data is not available. At the core of the pipeline lies a combination of multilingual embeddings (LaBSE), multi-label classification techniques, Named Entity Recognition (NER), and hierarchical concept expansion using the Art & Architecture Thesaurus (AAT). This integration allows the system to assign both English and Dutch tags to each artwork title, creating a semantic framework for historical records that are often minimally described. The project also includes a custom-built interface developed in Streamlit—a lightweight Python-based solution for interactive applications—which enables art historians, curators, and researchers to upload their data, view the pipeline’s predictions, edit tags, and export their annotated datasets. By incorporating human expertise in the workflow, the tool supports meaningful human–AI collaboration in annotation and metadata curation tasks. The system is evaluated through qualitative expert feedback and usage testing, highlighting both its strengths and the limitations and underscoring the broader capabilities but also the domain experts’ perception of AI-based methods in digital art history (DAH) metadata practices. Ultimately, semARTagger contributes an adaptive solution for semantic metadata enrichment in low-resource, multilingual cultural heritage contexts and reinforces the discourse around designing accessible, interoperable and collaborative frameworks that align with domain values and support sustainable knowledge infrastructure in the digital humanities.
 
-semartagger.jpg 
+![*semARTagger* Interface](semartagger.jpg "The semARTagger interface") 
 
 ### Methodology
 
@@ -36,7 +36,6 @@ The system was evaluated through a user study with curators and metadata special
 
 The study revealed that users valued the time saved by automated suggestions, while also emphasizing the importance of being able to control, edit, and refine the results. Their insights shaped interface refinements, highlighting the role of human expertise in validating AI-driven tagging.  
 
-
 ### Key Takeaways
 
 - **Successful Metadata Enrichment:** The pipeline generated meaningful Dutch and English semantic tags for historical artworks based solely on their titles.  
@@ -50,7 +49,6 @@ The study revealed that users valued the time saved by automated suggestions, wh
 - **Positive Perception of AI:** Experts appreciated the tool as a supportive assistant rather than a replacement, noting improved trust when they could see, edit, and correct the AI’s output.  
 
 - **Scalable Solution:** The separation of pipeline and interface ensures the system can be retrained and extended for other collections and low-resource, multilingual datasets.  
-
 
 This project was created by Maria Elpiniki Zafeiraki as part of an *Embedded Research Project* at the RKD – Nederlands Instituut voor Kunstgeschiedenis (Netherlands Institute for Art History) and the *MA Thesis* course, supervised by Dr. Houda Lamqaddam, for the Master's in Cultural Data and AI at the University of Amsterdam.  
 It was also showcased as a poster during the Posters Presentation at *Celebrating 10 Years of Digital Humanities at KU Leuven*.
