@@ -15,9 +15,3 @@ As a **Student Researcher in Data Analysis and AI** at the RKD – Nederlands In
 Since completing my studies in September 2025, I continue to explore the many applications of data and AI. **My goal is to apply data analysis and state-of-the-art AI solutions to real-world challenges, generating product and business value while maintaining an ethical, human-centered approach. I am particularly eager to contribute to digital transformation projects that connect AI, analytics, and strategy — especially in the cultural and digital media sectors.**
 
 Outside of work and study, I am currently learning Dutch (maar ik ben nog een beginner), sharpening my Python and SQL skills, and working on side projects. When I am offline, I love traveling, spending time in the nature and doing outdoor sports, going to gigs, reading, and cooking my favorite Greek recipes (which I miss dearly). And yes, I’ll happily binge-watch The Office any time.
-
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://marnikzaf.github.io/legacy/">Exploring the Digital Legacy of Analog-Era Artists: A Network Analysis of Manos Hadjidakis’s Position on Spotify</a></li>
-</ul>
