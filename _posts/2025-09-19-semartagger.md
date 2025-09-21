@@ -57,6 +57,7 @@ The study revealed that users valued the time saved by automated suggestions, wh
 ---
 
 This project was created by Maria Elpiniki Zafeiraki as part of an *Embedded Research Project* at the RKD – Nederlands Instituut voor Kunstgeschiedenis (Netherlands Institute for Art History) and the *MA Thesis* course, supervised by Dr. Houda Lamqaddam, for the Master's in Cultural Data and AI at the University of Amsterdam.  
+
 It was also showcased as a poster during the Posters Presentation at *Celebrating 10 Years of Digital Humanities at KU Leuven*.
 
 This work is my own, and I hold the rights to it. You are welcome to cite it.  
